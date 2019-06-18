@@ -15,8 +15,8 @@ public class ApplicationDriver {
 //        testProblem07();
 //        testProblem08();
 //        testProblem09();
-        testProblem10();
-//        testProblem01();
+//        testProblem10();
+        testProblem11();
 //        testProblem01();
 //        testProblem01();
 //        testProblem01();
@@ -148,5 +148,9 @@ public class ApplicationDriver {
     private static void testProblem10() {
         Problem10.convertToBase2(15);
         Problem10.convertToBase2(256);
+    }
+
+    private static void testProblem11() {
+        Problem11.printDistanceBetweenTwoNumbers();
     }
 }
